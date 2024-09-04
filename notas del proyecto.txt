@@ -1,0 +1,74 @@
+https://getcomposer.org/
+comando para crear apps:  curl -s https://laravel.build/devstagram | bash
+
++ Hacer registrar a cada persona según su rol? 
++ pedir o no al usuario un id para su registro?
++ pedir numero de teléfono y correo en el registro o después del inicio de sesión?
++ 24 horas para verificación de rol?
++ pagina de inscripción de proyectos para los alumnos, de un solo uso?
++ pedir al alumno durante el registro quien va a ser su asesor (persona que va a calificar su proyecto)
++ calificación con números enteros o flotantes (decimales)
++ En base a que realizar la búsqueda en lista de alumnos?
++ dentro de registro el nombre del asesor externo o interno?
++ cambiar la pagina después de seleccionar el periodo o cronometrar periodo?
+
+Enter new UNIX username: jorge
+New password:root
+
+git config --global user.name "Jorge Omner Arias Olea"
+git config --global user.email "omnerarias001@gmail.com"
+
+Paleta de colores: código en hexadecimal
+
+Inicio de sesión:
+	132E44 barra azul oscuro superior
+	285F8B barra azul claro superior
+	0A69A3 línea celeste 
+	5F5F5F color de letras en cuadro gris
+
+Estatus de Alumnos:
+	
+
+
+Requisitos funcionales:
+	
+Registro de Proyectos: Registrar, editar y eliminar proyectos. Asignación de datos del proyecto nombre, descripción, fecha de inicio y fecha de finalización, durante 3 periodos.  
+
+Seguimiento del Progreso: Registrar las actividades que se comprometen a realizar los alumnos durante cada periodo y pedir un informe sobre si las actividades fueron hechas satisfactoriamente
+
+Monitorear el avance de cada tarea y proyecto.
+Generar informes sobre el estado actual del proyecto, incluyendo porcentaje completado y posibles retrasos.
+
+Gestión de Documentos: Adjuntar y almacenar documentos relevantes para cada proyecto o tarea.
+Permitir la visualización y descarga de los informes de avances de los proyectos al coordinador
+
+Comunicación: Notificar a los usuarios sobre actualizaciones o cambios en el proyecto o tareas.
+
+Control de Acceso: Definir roles y permisos de usuario (por ejemplo, Coordinador, Maestro, Alumno).
+Controlar el acceso a funciones y datos según los permisos asignados.
+
+
+
+Requisitos no funcionales:
+
+Usabilidad: Interfaz de usuario minimalista, accesibilidad para diferentes tipos de usuarios.
+
+Rendimiento: El sistema debe ser capaz de manejar una cantidad significativa de datos sin afectar su rendimiento.
+Tiempo de respuesta rápido para operaciones comunes.
+
+Escalabilidad: Capacidad para escalar el sistema en función del número de proyectos y usuarios sin afectar el rendimiento.
+
+Seguridad: Protección de datos sensibles mediante cifrado y otras técnicas de seguridad.
+Autenticación y autorización adecuadas para prevenir accesos no autorizados.
+
+Disponibilidad: Alta disponibilidad del sistema, minimizando tiempos de inactividad.
+Mecanismos de respaldo y recuperación ante desastres.
+
+Compatibilidad: Compatibilidad con diferentes navegadores web y sistemas operativos, además de compatibilidad con diversos dispositivos ósea teléfonos inteligentes, computadoras y laptops 
+
+Mantenibilidad: documentar el código y procurar que este estructurado y comentado para facilitar futuras actualizaciones y mantenimiento.
+
+Documentación: Proveer documentación clara para los administradores del sistema.
+Disponibilidad de soporte técnico para resolver problemas, crear un manual de usuario
+
+Costo: Considerar los costos asociados al desarrollo, implementación y mantenimiento del software.
